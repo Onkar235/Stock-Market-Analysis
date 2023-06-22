@@ -1,0 +1,127 @@
+/* screener.css */
+
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+select {
+  font-size: 14px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.document-table {
+  width: 100%;
+  font-size: 6px;
+  border-collapse: collapse;
+  border: #ffffff;
+  border-width: 40px;
+  background-color: black;
+  }
+  
+
+.document-table th,
+.document-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.document-table th {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: rgb(27, 99, 255);
+}
+
+.document-table tbody tr:nth-child(even) {
+  background-color: #000000;
+}
+
+.document-table tbody tr:hover {
+  background-color: #fdfdfd6e;
+}
+
+.document-table .negative {
+  background-color: red;
+}
+
+/* Responsive table styles */
+@media screen and (max-width: 600px) {
+  .document-table {
+    font-size: 10px;
+  }
+
+  .document-table th,
+  .document-table td {
+    padding: 4px;
+  }
+}
+
+select,
+input[type='text'] {
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.search-results {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.search-results li {
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* .search-results li.active {
+  background-color: rgb(0, 191, 255);
+} */
+
+/* Collection list styles */
+.collection-list {
+  list-style: none;
+  padding: 0;
+}
+
+.collection-list li {
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* .collection-list li.active {
+  background-color: rgb(46, 197, 247);
+} */
+
+.search-results :hover{
+  background-color: #fdfdfd6e;
+}
+
+.collection-list :hover{
+  background-color: #fdfdfd6e;
+}
