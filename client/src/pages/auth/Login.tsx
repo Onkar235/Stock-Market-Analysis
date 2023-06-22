@@ -109,13 +109,13 @@ const Login = () => {
                 <VerticalForm<UserData>
                     onSubmit={onSubmit}
                     resolver={schemaResolver}
-                    defaultValues={{ email: 'adminto@coderthemes.com', password: 'test' }}
+                    defaultValues={{ email: 'onkarshete235@gmail.com', password: '12345' }}
                 >
                     <FormInput
                         type="email"
                         name="email"
                         label={t('Email address')}
-                        placeholder={t('hello@coderthemes.com')}
+                        placeholder={t('onkarshete235@gmail.com')}
                         containerClass={'mb-3'}
                     />
                     <FormInput

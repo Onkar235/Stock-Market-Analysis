@@ -39,7 +39,7 @@ import {
     UseRowStateInstanceProps,
     UseRowStateOptions,
     UseRowStateRowProps,
-    UseRowStateState,
+    UseRowStatestate,
     UseSortByColumnOptions,
     UseSortByColumnProps,
     UseSortByHooks,
@@ -92,7 +92,7 @@ declare module 'react-table' {
             UsePaginationState<D>,
             UseResizeColumnsState<D>,
             UseRowSelectState<D>,
-            UseRowStateState<D>,
+            UseRowStatestate<D>,
             UseSortByState<D> {}
 
     export interface ColumnInterface<D extends Record<string, unknown> = Record<string, unknown>>

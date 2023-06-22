@@ -226,7 +226,7 @@ const BasicForm = () => {
                 <VerticalForm<UserData>
                     onSubmit={() => {}}
                     resolver={schemaResolver}
-                    defaultValues={{ username: 'test' }}
+                    defaultValues={{ username: '12345' }}
                 >
                     <FormInput
                         label={'Username'}
@@ -292,7 +292,7 @@ const HorizontalForm = () => {
     );
 
     const methods = useForm<UserData2>({
-        defaultValues: { email2: 'adminto@coderthemes.com' },
+        defaultValues: { email2: 'onkarshete235@gmail.com' },
         resolver: schemaResolver2,
     });
     const {

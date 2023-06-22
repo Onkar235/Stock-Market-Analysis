@@ -78,7 +78,7 @@ const BasicWizard = () => {
                                                             type="password"
                                                             name="examplePassword"
                                                             id="examplePassword1"
-                                                            defaultValue="12345"
+                                                            defaultValue="test"
                                                         />
                                                     </Col>
                                                 </Form.Group>
@@ -92,7 +92,7 @@ const BasicWizard = () => {
                                                             type="password"
                                                             name="exampleRepassword"
                                                             id="examplerePassword1"
-                                                            defaultValue="12345"
+                                                            defaultValue="test"
                                                         />
                                                     </Col>
                                                 </Form.Group>
@@ -318,7 +318,7 @@ const ButtonWizard = () => {
                                                             name="examplePassword"
                                                             id="examplePassword2"
                                                             placeholder="password placeholder"
-                                                            defaultValue="12345"
+                                                            defaultValue="test"
                                                         />
                                                     </Col>
                                                 </Form.Group>
@@ -333,7 +333,7 @@ const ButtonWizard = () => {
                                                             name="exampleRepassword"
                                                             id="examplerePassword2"
                                                             placeholder="password"
-                                                            defaultValue="12345"
+                                                            defaultValue="test"
                                                         />
                                                     </Col>
                                                 </Form.Group>
@@ -648,7 +648,7 @@ const WizardWithProgressbar = () => {
                                                                 type="password"
                                                                 name="examplePassword"
                                                                 id="examplePassword3"
-                                                                defaultValue="12345"
+                                                                defaultValue="test"
                                                             />
                                                         </Col>
                                                     </Form.Group>
@@ -662,7 +662,7 @@ const WizardWithProgressbar = () => {
                                                                 type="password"
                                                                 name="exampleRepassword"
                                                                 id="examplerePassword3"
-                                                                defaultValue="12345"
+                                                                defaultValue="test"
                                                             />
                                                         </Col>
                                                     </Form.Group>

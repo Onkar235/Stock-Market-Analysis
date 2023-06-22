@@ -18,10 +18,10 @@ export function configureFakeBackend() {
     let users: UserData[] = [
         {
             id: 1,
-            email: 'adminto@coderthemes.com',
-            username: 'test',
-            password: 'test',
-            firstName: 'Test',
+            email: 'onkarshete235@gmail.com',
+            username: '12345',
+            password: '12345',
+            firstName: '12345',
             lastName: 'User',
             role: 'Admin',
             token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb2RlcnRoZW1lcyIsImlhdCI6MTU4NzM1NjY0OSwiZXhwIjoxOTAyODg5NDQ5LCJhdWQiOiJjb2RlcnRoZW1lcy5jb20iLCJzdWIiOiJzdXBwb3J0QGNvZGVydGhlbWVzLmNvbSIsImxhc3ROYW1lIjoiVGVzdCIsIkVtYWlsIjoic3VwcG9ydEBjb2RlcnRoZW1lcy5jb20iLCJSb2xlIjoiQWRtaW4iLCJmaXJzdE5hbWUiOiJIeXBlciJ9.P27f7JNBF-vOaJFpkn-upfEh3zSprYfyhTOYhijykdI',

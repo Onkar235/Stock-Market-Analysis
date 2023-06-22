@@ -1,7 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap';
 
 // types
-import { Testimonial } from './types';
+import { testimonial } from './types';
 
 // images
 import img1 from '../../assets/images/landing/clients/1.png';
@@ -10,7 +10,7 @@ import img3 from '../../assets/images/landing/clients/3.png';
 import img4 from '../../assets/images/landing/clients/4.png';
 
 type ClientsProps = {
-    testimonials: Testimonial[];
+    testimonials: testimonial[];
 };
 
 const Clients = ({ testimonials }: ClientsProps) => {

@@ -1,5 +1,5 @@
 // types
-import { Layout, PricingPlan, Statistic, Testimonial, Service } from './types';
+import { Layout, PricingPlan, Statistic, testimonial, Service } from './types';
 
 // images
 import image1 from '../../assets/images/landing/icons/layers.png';
@@ -53,7 +53,7 @@ const layouts: Layout[] = [
     },
 ];
 
-const testimonials: Testimonial[] = [
+const testimonials: testimonial[] = [
     {
         id: 1,
         clientName: 'Xpanta',

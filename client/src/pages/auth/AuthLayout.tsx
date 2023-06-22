@@ -47,7 +47,7 @@ const AuthLayout = ({ hasLogo, bottomLinks, children }: AccountLayoutProps) => {
                                         </span>
                                     </Link>
                                 </div>
-                                <p className="text-muted mt-2 mb-4">{t('Responsive Admin Dashboard')}</p>
+                                <p className="text-muted mt-2 mb-4">{t('Your financial advisor')}</p>
                             </div>
                         )}
                         <Card>

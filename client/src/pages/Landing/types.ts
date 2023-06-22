@@ -4,7 +4,7 @@ export type Layout = {
     link: string;
 };
 
-export type Testimonial = {
+export type testimonial = {
     id: number;
     clientName: string;
     title: string;

@@ -19,7 +19,7 @@ const BasicInputElements = () => {
      */
     const methods = useForm({
         defaultValues: {
-            password: '12345',
+            password: 'test',
             statictext: 'email@example.com',
             color: '#35b8e0',
         },

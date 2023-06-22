@@ -31,7 +31,7 @@ const LineAnnotationChart = () => {
                             color: '#fff',
                             background: '#5b69bc',
                         },
-                        text: 'Anno Test',
+                        text: 'Anno test',
                     },
                 },
                 {
