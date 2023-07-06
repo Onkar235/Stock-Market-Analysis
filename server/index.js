@@ -1,4 +1,4 @@
-require("dotenv").config();
+require('dotenv').config();
 
 const express = require('express');
 const cors = require('cors');
@@ -8,11 +8,11 @@ const app = express();
 app.use(cors());
 
 // Define your database names
-const databaseNames = ['nse_listed_stocks', 'bse_listed_stocks'];
+const databaseNames = [process.env.DB_NAME_1, process.env.DB_NAME_2];
 
 // Define your MongoDB connection URIs
 const mongoURIs = databaseNames.map((databaseName) => {
-  return `mongodb+srv://shubh:12345@cluster0.wzlxjn6.mongodb.net/${databaseName}`;
+  return process.env[`DB_URI_${databaseNames.indexOf(databaseName) + 1}`];
 });
 
 // Create Mongoose connections for each database
