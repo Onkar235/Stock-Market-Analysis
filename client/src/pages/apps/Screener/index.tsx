@@ -128,7 +128,7 @@ const Screener = () => {
         <div>
           <h1>{selectedDatabase}</h1>
           <div>
-            <label htmlFor="search-input">Search Collection:</label>
+            <label htmlFor="search-input">Search Company:</label>
             <input
               type="text"
               id="search-input"
